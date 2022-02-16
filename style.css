@@ -1,5 +1,6 @@
 * {
   text-align: center;
+  font-family: "Red Hat Display", sans-serif;
 }
 body {
   height: 100vh;
@@ -9,8 +10,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
-.card {
+main {
   width: 290px;
   padding: 15px;
   background: hsl(0, 0%, 100%);
@@ -20,18 +20,17 @@ body {
   align-items: center;
   box-shadow: 4px 4px 10px hsl(220, 15%, 55%);
 }
-
-.card-head {
+header {
   width: 285px;
   height: 285px;
   border-radius: 15px;
   background-image: url("image-qr-code.png");
   background-size: contain;
 }
-.card-body {
+article {
   padding: auto;
-  width: 90%;
-  margin: auto;
+  width: 85%;
+  /* margin: auto; */
 }
 .card-title {
   font-size: 1.3rem;
@@ -40,7 +39,10 @@ body {
   font-size: 15px;
   color: hsl(214, 11%, 70%);
 }
-.attribution {
+footer {
+  margin-top: 10px;
+}
+/* .attribution {
   position: absolute;
   bottom: 0px;
-}
+} */
