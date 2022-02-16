@@ -11,20 +11,19 @@ body {
 }
 
 .card {
-  width: 95%;
+  width: 290px;
   padding: 15px;
   background: hsl(0, 0%, 100%);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   box-shadow: 4px 4px 10px hsl(220, 15%, 55%);
 }
 
 .card-head {
-  width: 95%;
-  height: auto;
+  width: 285px;
+  height: 285px;
   border-radius: 15px;
   background-image: url("image-qr-code.png");
   background-size: contain;
@@ -44,26 +43,4 @@ body {
 .attribution {
   position: absolute;
   bottom: 0px;
-}
-
-@media screen and (min-width: 375px) {
-  .card {
-    width: 290px;
-    padding: 15px;
-  }
-  .card-head {
-    width: 285px;
-    height: 285px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .card {
-    width: 290px;
-    padding: 15px;
-  }
-  .card-head {
-    width: 285px;
-    height: 285px;
-  }
 }
