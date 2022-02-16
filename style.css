@@ -32,7 +32,7 @@ article {
   width: 85%;
   /* margin: auto; */
 }
-.card-title {
+h1 {
   font-size: 1.3rem;
 }
 .card-text {
